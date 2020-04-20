@@ -38,12 +38,11 @@ cd -
 #
 function remove_node_modules()
 {
-rm -rf ${LIFERAY_PORTAL_DIR}/modules/apps/collaboration/wiki/wiki-web/node_modules/
-rm -rf ${LIFERAY_PORTAL_DIR}/modules/apps/foundation/frontend-editor/frontend-editor-alloyeditor-accessibility-web/node_modules/
-rm -rf ${LIFERAY_PORTAL_DIR}/modules/apps/foundation/frontend-js/frontend-js-metal-web/node_modules/
-rm -rf ${LIFERAY_PORTAL_DIR}/modules/apps/foundation/hello-soy/hello-soy-web/node_modules/
-rm -rf ${LIFERAY_PORTAL_DIR}/modules/apps/frontend-theme-1975-london/frontend-theme-1975-london/node_modules/
-rm -rf ${LIFERAY_PORTAL_DIR}/modules/apps/frontend-theme-porygon/frontend-theme-porygon/node_modules/
+rm -rf ${LIFERAY_PORTAL_DIR}/modules/apps/wiki/wiki-web/node_modules/
+rm -rf ${LIFERAY_PORTAL_DIR}/modules/apps/frontend-editor/frontend-editor-alloyeditor-web/node_modules/
+rm -rf ${LIFERAY_PORTAL_DIR}/modules/apps/frontend-js/frontend-js-metal-web/node_modules/
+rm -rf ${LIFERAY_PORTAL_DIR}/modules/apps/hello-soy/hello-soy-web/node_modules/
+rm -rf ${LIFERAY_PORTAL_DIR}/modules/apps/frontend-theme-fjord/frontend-theme-fjord/node_modules/
 }
 #
 
